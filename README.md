@@ -1,5 +1,7 @@
 ﻿# spotify-moodboard
  Spotify Moodboard gives you a way to view your music as a visual collage. The theme of the collage is customized to match your favorite music style.
+ 
+ I've [uploaded](https://whispering-plains-27367.herokuapp.com/) it, but because I'm still in development mode on Spotify I have to manually add users emails so that they can be given approved access. 
  ![moodboardexample](https://user-images.githubusercontent.com/46584496/135787749-f50d3900-565c-4548-ac82-12d7715cbc34.png)
 
 # Spotify Web API
