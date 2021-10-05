@@ -1,0 +1,65 @@
+.grid-area-one{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 /-1;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/spotify-moodboard.appspot.com/o/IMG_1623.JPG?alt=media&token=635e21bb-d034-4836-9834-fe7e867875bf');
+    background-size: cover;
+    justify-content: center;
+    align-items: left;
+    text-align: left; 
+  }
+  .grid-area-one h1{
+    margin-left:5%;
+  }
+  .grid-area-one p{
+    margin-left:3%;
+    text-shadow: none;
+    font-weight: bold;
+  }
+  
+  .grid-area-one Button{
+    margin-top:1%;
+    margin-left:12%;
+  } 
+  
+  .grid-area-two{
+    grid-column: 1;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/spotify-moodboard.appspot.com/o/IMG_8003%20(1).jpg?alt=media&token=a57aa8a8-88b2-4597-b635-d446e7e09b55');
+    background-size: cover;
+  }
+  .grid-area-three{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/spotify-moodboard.appspot.com/o/IMG_5766.jpg?alt=media&token=44f19823-4bbe-4def-bad3-1569c8271ba5');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .App-header {
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    min-height: 100vh;
+    font-size: calc(6px + 2vmin);
+    text-shadow: 0.1vmax 0.1vmax #8ebd9a;
+    color: white;
+  }
+  
+  .example{
+    max-height: 50%;
+    min-height: 80px;
+    min-width: 20%;
+    display: flex;
+    top:35%;
+    left:40%;
+    position:absolute;
+    border: 10px solid white;
+  }
+
+  .margin-space{
+    margin-top: 1vmax;
+  }
+  
+  @media only screen and (max-width:560px){
+    .example{
+      display: none;
+    }
+  }
