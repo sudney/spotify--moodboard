@@ -1,0 +1,15 @@
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    margin-bottom: 2vmax;
+  }
+
+  .about-content h2{
+    margin-bottom: 0%;
+  }
+
+  .about-content p{
+    line-height: 1.5;
+    font-size: smaller;
+  }

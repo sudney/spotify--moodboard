@@ -1,0 +1,24 @@
+:root {
+    --primary: #8ebd9a;
+    --white: white;
+}
+
+.btn{    
+    font-family: 'Montserrat';
+    padding: 0.3vmax 0.3vmax;
+    flex-shrink:2;
+    border-radius: 20px;
+    width:12vmax;
+    cursor: pointer;
+    padding: 1vmax 1vmax;
+    font-size: 1.0vmax;
+    background-color: var(--primary);
+    color:var(--white);
+    border: none;    
+}
+
+.btn:hover {
+    transform: translate(-3px);
+    background-color: #a7c280;
+}
+
